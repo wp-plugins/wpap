@@ -8,7 +8,7 @@ Contributors: RS Publishing
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKBUSJL77SA3J
 Requires at least: 2.7
 Tested up to: 3.5
-Stable tag: 1.5
+Stable tag: 0.0.7
 Version: 0.0.7
 License: GPLv2 or later
 
