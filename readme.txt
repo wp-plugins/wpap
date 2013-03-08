@@ -9,7 +9,6 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Requires at least: 2.7
 Tested up to: 3.5
 Stable tag: 0.0.7
-Version: 0.0.7
 License: GPLv2 or later
 
 This plugin will fetch and auto-correct the ip address in the event that the user is hidden behind a proxy or load balancer.
