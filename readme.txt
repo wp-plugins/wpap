@@ -14,12 +14,14 @@ License: GPLv2 or later
 
 This plugin will fetch and auto-correct the ip address in the event that the user is hidden behind a proxy or load balancer.
 
+
 == Description ==
 
 This plugin will fetch and auto-correct the ip address in the event that the user is hidden behind a proxy or load balancer. 
 The WPap plugin uses and scans both the http headers as well as ports.
 
 == WPap Checks ==
+
 
 = Headers =
 
@@ -42,17 +44,6 @@ This plugin sets the user IP to the first header that matches a simple regular e
 3. Activate the WPap plugin in your WP-admin
 4. Done !
 
-== Frequently Asked Questions ==
-
-
-= Can more ports be added? =
-
-Of course ! You are welcome to include additional ports
-
-= Where do I add additional ports? =
-
-Simply add them to the ports array on line 40
-
 
 == Feedback, Questions, Help, and Suggestions ==
 
@@ -64,9 +55,22 @@ Just post a mail to: support@securiilock.com / Email Subject : WPap
 
 None
 
+
 == Screenshots ==
 
 1. WPap on Hidemyass
+
+
+== Frequently Asked Questions ==
+
+= Can more ports be added? =
+
+Of course ! You are welcome to include additional ports
+
+= Where do I add additional ports? =
+
+Simply add them to the ports array on line 40
+
 
 == Changelog ==
 
