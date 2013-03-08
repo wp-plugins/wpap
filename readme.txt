@@ -49,7 +49,7 @@ This plugin sets the user IP to the first header that matches a simple regular e
 
 Of course ! You are welcome to include additional ports
 
-= Where to I add additional ports? =
+= Where do I add additional ports? =
 
 Simply add them to the ports array on line 40
 
