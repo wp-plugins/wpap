@@ -4,7 +4,7 @@
   Plugin Name: WP Anti-Proxy
   Plugin URI: http://www.securiilock.com/
   Description: The WPap plugin will fetch and correct the client's ip address in the event that he is hidden behind a proxy or load balancer. WPap uses HTTP headers as well as port scanning.
-  Version: 0.0.7
+  Version: 1.0
   Author: RS Publishing
   Author URI: http://www.securiilock.com
   License: GPL2
