@@ -5,7 +5,7 @@ Description: This plugin will fetch and correct the client's ip address in the e
 Tags: anti-proxy, proxy, ip, ip address, load balancer, server, http, ports, scan, anti, real ip, forward, forwarded
 Donation link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HT8AAJEU86Z8
 Author URI: http://www.securiilock.com
-Contributors: RS Publishing
+Contributors: RSPublishing
 Requires at least: 2.7
 Tested up to: 3.7.1
 Stable tag: 1.0
@@ -52,7 +52,7 @@ Just post a mail to: support@securiilock.com / Email Subject : WP Anti-Proxy
 
 == Upgrade Notice ==
 
-= Version 1.0 = 
+= Version 1.2 = 
 
 
 == Screenshots ==
@@ -82,6 +82,7 @@ None
 * tested compatibility with v3.7.1
 * added blank index file to trunk (security)
 * included donation link
+* corrected author name
 * included temp banner
 * updated keywords
 * updated readme
