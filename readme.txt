@@ -62,7 +62,11 @@ Of course ! You are welcome to include additional ports
 
 = Where do I add additional ports? =
 
-Simply add them to the ports array on line 40
+Simply add them to the ports array on line 38
+
+= The plugin won't activate. Displays an error: "Plugin could not be activated because it triggered a fatal error."
+
+This is a port issue. Open the anpro.php file and scroll down to line 38 (where you will see an array of ports). Simply remove each port (reactivating each time) to see which port causes the issue. That said, port 80 is currently commented out (as it caused conflict on our end). This doesn't necessarily mean that it would cause conflict on your end. Feel free to uncomment the pre-pending // before port 80 and you're set to go!
 
 
 == Changelog ==
@@ -80,6 +84,7 @@ Simply add them to the ports array on line 40
 * updated readme
 
 = 1.2 =
+* fixed issue with port scanning (see comment in anpro.php line 38)
 * tested compatibility with v4.0
 * general housekeeping
 

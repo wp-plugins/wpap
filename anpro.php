@@ -35,11 +35,11 @@
 	if (isset($_SERVER[$x])) die("Proxy access not allowed !");
 	}
 
-	$po = array (80, 8000, 8080, 81, 1080);
+	$po = array (8000, 8080, 81, 1080); // port 80 is excluded by default due to a conflict on our end. you are welcome to add port 80 to the array = remember to separate with a comma
 	
 	foreach($po as $po) {
 	if(@fsockopen($_SERVER['REMOTE_ADDR'], $po, $errno, $errstr, 1))
-	die("Sorry ! Proxy access not allowed !");
+	die("Sorry! Proxy access not allowed !");
 	}
 
 ?>
