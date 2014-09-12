@@ -6,13 +6,12 @@ Tags: anti-proxy, proxy, ip, ip address, load balancer, server, http, ports, sca
 Donation link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HT8AAJEU86Z8
 Author URI: http://www.securiilock.com
 Contributors: RSPublishing
-Requires at least: 2.7
-Tested up to: 3.7.1
-Stable tag: 1.0
+Requires at least: 3.1
+Tested up to: 4.0
+Stable tag: 1.2
 License: GPLv2 or later
 
 This plugin will fetch and auto-correct the ip address in the event that the user is hidden behind a proxy or load balancer.
-
 
 == Description ==
 
@@ -20,7 +19,6 @@ This plugin will fetch and auto-correct the ip address in the event that the use
 The WP Anti-Proxy plugin uses and scans both the http headers as well as ports.
 
 == WP Anti-Proxy Checks ==
-
 
 = Headers =
 
@@ -35,7 +33,6 @@ X_FORWARDED_FOR, HTTP_X_FORWARDED_FOR, X_FORWARDED, HTTP_X_FORWARDED, HTTP_PROXY
 
 This plugin sets the user IP to the first header that matches a simple regular expression of an IP
 
-
 == Installation ==
 
 1. Download the wpap.zip file
@@ -43,12 +40,9 @@ This plugin sets the user IP to the first header that matches a simple regular e
 3. Activate the WPap plugin in your WP-admin
 4. Done !
 
-
 == Feedback, Questions, Help, and Suggestions ==
 
-
 Just post a mail to: support@securiilock.com / Email Subject : WP Anti-Proxy
-
 
 == Upgrade Notice ==
 
@@ -73,12 +67,10 @@ Simply add them to the ports array on line 40
 
 == Changelog ==
 
-None
+= 0.0.7 =
+* initial release
 
-= Version 0.0.7 =
-
-= 1.2 =
-
+= 1.0 =
 * tested compatibility with v3.7.1
 * added blank index file to trunk (security)
 * included donation link
@@ -87,9 +79,10 @@ None
 * updated keywords
 * updated readme
 
-
-First Release Version
+= 1.2 =
+* tested compatibility with v4.0
+* general housekeeping
 
 == Donations ==
 
-Should you feel like being awesome and dropping us a donation (which is much appreciated), please do so via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HT8AAJEU86Z8) OR come and see us at [Securiilock] (http://www.securiilock.com)
+Should you feel like being awesome and dropping us a donation (which is much appreciated), please do so via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HT8AAJEU86Z8) OR come and see us at [Securiilock] (http://www.securiilock.com) to see what else we have for you.
