@@ -2,13 +2,13 @@
 
 Plugin Name: WP Anti-Proxy
 Description: This plugin will fetch and correct the client's ip address in the event that he is hidden behind a proxy or load balancer. Uses HTTP and port scanning.
-Tags: anti-proxy, proxy, ip, ip address, load balancer, server, http, ports, scan, anti, real ip, forward, forwarded
+Tags: anti-proxy, proxy, ip address, load balancer, server, http, ports, scan, anti, real ip, forwarded, proxies
 Donation link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HT8AAJEU86Z8
-Author URI: http://www.securiilock.com
+Author URI: http://yooplugins.com/
 Contributors: RSPublishing
 Requires at least: 3.1
 Tested up to: 4.0
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 
 This plugin will fetch and auto-correct the ip address in the event that the user is hidden behind a proxy or load balancer.
@@ -42,23 +42,22 @@ This plugin sets the user IP to the first header that matches a simple regular e
 
 == Feedback, Questions, Help, and Suggestions ==
 
-Just post a mail to: support@securiilock.com / Email Subject : WP Anti-Proxy
+Just post a mail to: support@yooplugins.com / Email Subject : WP Anti-Proxy or visit us at [YOOPlugins](http://yooplugins.com/)
 
 == Upgrade Notice ==
 
-= Version 1.2 = 
+= Version 1.3 = 
 
 
 == Screenshots ==
 
 1. WPap on Hidemyass
 
-
 == Frequently Asked Questions ==
 
 = Can more ports be added? =
 
-Of course ! You are welcome to include additional ports
+Of course! You are welcome to include additional ports if you so wish.
 
 = Where do I add additional ports? =
 
@@ -67,7 +66,6 @@ Simply add them to the ports array on line 38
 = The plugin won't activate. Displays an error: "Plugin could not be activated because it triggered a fatal error."
 
 This is a port issue. Open the anpro.php file and scroll down to line 38 (where you will see an array of ports). Simply remove each port (reactivating each time) to see which port causes the issue. That said, port 80 is currently commented out (as it caused conflict on our end). This doesn't necessarily mean that it would cause conflict on your end. Feel free to uncomment the pre-pending // before port 80 and you're set to go!
-
 
 == Changelog ==
 
@@ -88,6 +86,6 @@ This is a port issue. Open the anpro.php file and scroll down to line 38 (where 
 * tested compatibility with v4.0
 * general housekeeping
 
-== Donations ==
-
-Should you feel like being awesome and dropping us a donation (which is much appreciated), please do so via [PayPal] (https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3HT8AAJEU86Z8) OR come and see us at [Securiilock] (http://www.securiilock.com) to see what else we have for you.
+= 1.3 =
+* url and support email changes
+* general housekeeping
