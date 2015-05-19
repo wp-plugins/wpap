@@ -3,8 +3,8 @@
 /*
   Plugin Name: WP Anti-Proxy
   Plugin URI: http://yooplugins.com/
-  Description: The WPap plugin will fetch and correct the client's ip address in the event that he is hidden behind a proxy or load balancer. WPap uses HTTP headers as well as port scanning.
-  Version: 1.3.1
+  Description: The WP Anti-Proxy plugin will block users from accessing your site via proxy services and auto-correct the ip address of the user (should he be hidden behind a proxy or load balancer). Uses HTTP and port scanning.
+  Version: 1.3.2
   Author: RSPublishing
   Author URI: http://yooplugins.com/
   License: GPL2

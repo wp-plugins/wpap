@@ -7,32 +7,38 @@ Donation link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button
 Author URI: http://yooplugins.com/
 Contributors: RSPublishing
 Requires at least: 3.1
-Tested up to: 4.1.2
-Stable tag: 1.3.1
+Tested up to: 4.2.2
+Stable tag: 1.3.2
 License: GPLv2 or later
 
 This plugin will block users from accessing your site via proxy services and auto-correct the ip address of the user.
 
 == Description ==
 
-This plugin will fetch and auto-correct the user's ip address in the event that the user is hidden behind a proxy or load balancer. 
-Users accessing your site via proxy will be blocked and not be given access. 
+This plugin will fetch and auto-correct the user's ip address in the event that the user is hidden behind a proxy or load balancer.
+ 
+Users accessing your site via proxy will be blocked and not be given access.
+ 
 This plugin scans both the http headers as well as ports.
 
-== WP Anti-Proxy Checks ==
+WP Anti-Proxy Checks
 
-= Headers =
+Headers
 
 CLIENT_IP, HTTP_CLIENT_IP, VIA, HTTP_VIA, FORWARDED_FOR_IP, HTTP_FORWARDED_FOR_IP, FORWARDED_FOR, HTTP_FORWARDED_FOR, FORWARDED, HTTP_FORWARDED
 X_FORWARDED_FOR, HTTP_X_FORWARDED_FOR, X_FORWARDED, HTTP_X_FORWARDED, HTTP_PROXY_CONNECTION
 
-= Ports = 
+Ports
 
 8080,80,81,1080, 8000
 
-= Simple Regular Expression =
+Simple Regular Expression
 
 This plugin sets the user IP to the first header that matches a simple regular expression of an IP
+
+= About = 
+
+The WP Anti-Proxy plugin is maintained by [YOOPlugins.com](http://yooplugins.com/)
 
 == Installation ==
 
@@ -47,7 +53,7 @@ Just post a mail to: rcstoltz@gmail.com / Email Subject : WP Anti-Proxy or visit
 
 == Upgrade Notice ==
 
-= Version 1.3.1 = 
+= Version 1.3.2 = 
 
 
 == Screenshots ==
@@ -97,3 +103,9 @@ This is a port issue. Open the anpro.php file and scroll down to line 38 (where 
 * updated support email
 * general housekeeping
 * added icons
+
+= 1.3.2 =
+* tested compatibility with core 4.2.2
+* added banner and icon assets
+* updated version number
+* general housekeeping
